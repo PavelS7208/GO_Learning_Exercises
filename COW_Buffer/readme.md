@@ -24,6 +24,8 @@
 
 	fmt.Println(buffer.Update(0, 'g'))  // true
 
-  fmt.Println(buffer.String())
+    fmt.Println(buffer.String())
+	fmt.Println(copy1.String())
+	fmt.Println(copy2.String())
 ```
 
