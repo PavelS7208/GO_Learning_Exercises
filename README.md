@@ -1,4 +1,4 @@
 # GO_Learning_Exercises
 
-* Реализовация кольцевой очереди (Circular Queue)
-* Реализовация COW (Copy-On-Write) буфера
+* Реализация кольцевой очереди (Circular Queue)
+* Реализация COW (Copy-On-Write) буфера
