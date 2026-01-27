@@ -5,10 +5,10 @@
 
 
 type CircularQueue[T Number] struct {\
-	values []T\
-	cap    int\
-	front  int\
-	size   int\
-}\
+    values []T\
+    cap    int\
+    front  int\
+    size   int\
+}
 
 
