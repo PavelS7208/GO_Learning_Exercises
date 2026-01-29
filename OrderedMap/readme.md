@@ -19,17 +19,17 @@ OrderedMap[K cmp.Ordered, V any]
 
 Реализованы методы
 
-* func NewOrderedMap[K cmp.Ordered, V any]() *OrderedMap[K, V]  - конструктор
-* func (m *OrderedMap[K, V]) Get(key K) (V, bool)  - Получение элемента по ключу
-* func (m *OrderedMap[K, V]) Insert(key K, value V) bool - Вставить элемент (с проверкой что вставка произошла). ПРи существовании ключа - перезапись значения
-* func (m *OrderedMap[K, V]) Delete(key K) bool - Удаление по ключу
-* func (m *OrderedMap[K, V]) Contains(key K) bool - Проверка на наличие по ключу
-* func (m *OrderedMap[K, V]) Size() int / func (m *OrderedMap[K, V]) Empty() bool - Размеры
-* func (m *OrderedMap[K, V]) ForEachInOrder(action func(K, V))   - Итератор forEach в порядке возрастания ключей
-* func (m *OrderedMap[K, V]) String() string  - преобразованеи в строку хранящихся значений (для тестирования)
+* func NewOrderedMap  - конструктор
+* func Get(key K) (V, bool)  - Получение элемента по ключу
+* func Insert(key K, value V) bool - Вставить элемент (с проверкой что вставка произошла). ПРи существовании ключа - перезапись значения
+* func Delete(key K) bool - Удаление по ключу
+* func Contains(key K) bool - Проверка на наличие по ключу
+* func Size() int / Empty() bool - Размеры
+* func ForEachInOrder(action func(K, V))   - Итератор forEach в порядке возрастания ключей
+* func String() string  - преобразованеи в строку хранящихся значений (для тестирования)\
 
 
-
+	
 
 ```go
 	data := NewOrderedMap[int, int]()
